@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+*  {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+    }
+
+body {
+    position:relative;
+    width:100%;
+    min-height:100hv;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    background-color:grey;
+    background-image:url("apple.png");
+    background-size:corner;
+    background-position:right-top;
+    }
+
+.iphones {
+    color:#000;
+    font-size:30px;
+    text-decoration:solid;
+    text-transform:uppercase;
+    font-weight:800;
+    letter-spacing:1px;
+    text-align:center;
+}
+
+.navigation a:not(:last-child) {
+    margin-right:10px;
+}
+
+.navigation a:hover{
+    background:#fff;
+}
+
+.navigation{
+    font-weight:500;
+    text-decoration:none;
+    letter-spacing:1px;
+    padding:2px 15px;
+    border-radius:20px;
+    transition:0.3s;
+    transition-property:background;
+    text-align:right;
+}
+
+.content{
+    max-width:80%;
+    margin:60px 100px;
+}
+
+.info h2{
+    color:black;
+    font-size:50px;
+    text-decoration:none;
+    text-align:justify;
+    letter-spacing:1px;
+    line-height:100% ;
+    text-transform:uppercase;
+    text-shadow: #000;
+    margin:40px 60px;
+}
+
+.info h2 span {
+ color: #fff;
+ font-size:40px;
+ font-style: oblique;
+ font-size:600 ;
+}
+
+.info p{
+    color:yellowgreen;
+    letter-spacing:2px;
+    font-size:30px;
+    text-align:justify;
+    line-height:30px;
+    font-style:italic;
+    font-weight:800;
+    margin:40px 60px;
+}
+
+.info-btn {
+    text-transform:uppercase;
+    text-align:80%;
+    background-color:#226A80 ;
+    line-height:20px;
+    padding:10px 20px ;
+    border-radius:5px;
+    margin:40px 60px;
+    transition:0.3s;
+    transition-property:background;
+}
+
+.content.info-btn:hover {
+ background: #c4c4c4;
+}
+.button{
+    background-color: #fff;
+    text-align:right;
+    border-radius:5px;
+}
+
+.social-icons {
+    display:flex;
+    justify-content:center;
+    letter-spacing:10px; 
+    align-items:center;
+    margin:auto;
+    color: #000;;
+    justify-items:center;
+}
+
+.social-icons a{
+    color:#fff;
+    font-size:25px;
+}
+
+.social-icons a:not(:last-child){
+    margin-right:40px;
+}
